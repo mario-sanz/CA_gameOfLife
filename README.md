@@ -3,15 +3,13 @@ Animated Conway's Game of Life using [Matplotlib][matplotlib]
 
 [The Game of Life][game-life] is a [cellular automaton][cellular-automaton] devised by the British mathematician [John Horton Conway][conway] in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is [Turing complete][turing-complete] and can simulate a [universal constructor][universal-constructor] or any other [Turing machine][turing-machine].
 
-This version is implemented with the following classical rules:
-
-	1. Any dead cell with three live neighbours becomes a live cell.
-	2. Any live cell with two or three live neighbours lives on to the next generation. Otherwise, it dies.
-
 
 # About my code #
 
-This version of Cellular Automata draws different triangles in the screen according to different laws given by the number. Each number has a different drawing behaviour depending on the painted/non-painted cells on their surroundings. I have attached to the code some cool number laws that I have found along with a random number laws generator. Let me know if you find some other cool number laws!
+This version of The Game of Life is implemented with the following classical rules:
+
+	1. Any dead cell with three live neighbours becomes a live cell.
+	2. Any live cell with two or three live neighbours lives on to the next generation. Otherwise, it dies.
 
 I have developed it with comments so that everyone with a basic knowledge of Python can follow and understand the code.
 No previous knowkedge of Cellular Automata is required to understand it.
