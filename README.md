@@ -4,6 +4,7 @@ Animated Conway's Game of Life using [Matplotlib][matplotlib]
 [The Game of Life][game-life] is a [cellular automaton][cellular-automaton] devised by the British mathematician [John Horton Conway][conway] in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is [Turing complete][turing-complete] and can simulate a [universal constructor][universal-constructor] or any other [Turing machine][turing-machine].
 
 This version is implemented with the following classical rules:
+
 	1. Any dead cell with three live neighbours becomes a live cell.
 	2. Any live cell with two or three live neighbours lives on to the next generation. Otherwise, it dies.
 
